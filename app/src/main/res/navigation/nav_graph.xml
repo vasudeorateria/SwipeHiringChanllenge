@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ProductsFragment">
+
+    <fragment
+        android:id="@+id/ProductsFragment"
+        android:name="com.example.swipapplication.view.ProductsFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_products">
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.swipapplication.view.AddProductsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_add_products">
+    </fragment>
+</navigation>
